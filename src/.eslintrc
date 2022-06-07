@@ -3,7 +3,8 @@
     "env": {
       "browser": true
     },
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
+    "requireConfigFile": false,
     "rules": {
       "arrow-body-style":[0],
       "prefer-arrow-callback":[0],
