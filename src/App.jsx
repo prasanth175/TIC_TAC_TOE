@@ -1,9 +1,10 @@
 import React from 'react'
 import Board from './components/Board';
+import "./styles/root.scss"
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
        <h1>TIC TAC TOE</h1>
        <Board />
     </div>
@@ -11,3 +12,7 @@ const App = () => {
 }
 
 export default App;
+
+
+
+//6-7
