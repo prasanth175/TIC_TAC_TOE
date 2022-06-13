@@ -13,9 +13,9 @@ const App = () => {
 
   const [history, setHistory] = useState(NEW_GAME);
 
-     const [currentMove, setCurrentMove] = useState(0);
+  const [currentMove, setCurrentMove] = useState(0);
 
-     const current = history[currentMove];
+  const current = history[currentMove];
 
   const { winner, winningSquares } = calculateWinner(current.board);
 
